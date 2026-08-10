@@ -3,7 +3,7 @@ This rice uses configs from many repos, so it's not 100% pure my creation
 
 I use Matugen as the color scheme generator, so this dotfiles will work better with Matugen as you don't have to reconfigure every colors in the config file
 
-As for the wallpaper, i use swww. The wallpaper picker script that i made uses swww combined with Matugen, so you need to tweak the script a bit to work with your own system if you use a different wallpaper backend
+As for the wallpaper, i use awww. The wallpaper picker script that i made uses awww combined with Matugen, so you need to tweak the script a bit to work with your own system if you use a different wallpaper backend
 
 Special credit to [JaKooLit](https://github.com/JaKooLit), i used some of his scripts and waybar settings
 
