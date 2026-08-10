@@ -1,4 +1,6 @@
 # MY HYPRLAND RICE
+This repository is a fork of binnewbs's original rice, updated to fix outdated configurations and bring the setup in line with newer versions of the software. You can expect this repository to be kept up to date and updated frequently!
+
 This rice uses configs from many repos, so it's not 100% pure my creation
 
 I use Matugen as the color scheme generator, so this dotfiles will work better with Matugen as you don't have to reconfigure every colors in the config file
