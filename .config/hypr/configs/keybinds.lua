@@ -8,13 +8,13 @@
 mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hyprland.org/Configuring/Binds/ for more
-hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd("$terminal"))
-hl.bind(mainMod .. " + SHIFT + RETURN", hl.dsp.exec_cmd("[float; size 800 550] $terminal"))
+hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + SHIFT + RETURN", hl.dsp.exec_cmd("[float; size 800 550] " .. terminal))
 hl.bind(mainMod .. " + Q", hl.dsp.window.close())
 hl.bind("CTRL + ALT + Delete", hl.dsp.exit())
-hl.bind(mainMod .. " + E", hl.dsp.exec_cmd("$fileManager"))
+hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + Space", hl.dsp.window.float({ action = "toggle" }))
-hl.bind(mainMod .. " + D", hl.dsp.exec_cmd("$menu"))
+hl.bind(mainMod .. " + D", hl.dsp.exec_cmd(menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd("~/.config/hypr/scripts/wbrestart.sh"))
