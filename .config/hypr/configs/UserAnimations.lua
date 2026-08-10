@@ -12,7 +12,7 @@ hl.curve("slow", { type = "bezier", points = { { 0, 0.85 }, { 0.3, 1 } } })
 hl.curve("overshot", { type = "bezier", points = { { 0.7, 0.6 }, { 0.1, 1.1 } } })
 hl.curve("bounce", { type = "bezier", points = { { 1.1, 1.6 }, { 0.1, 0.85 } } })
 hl.curve("sligshot", { type = "bezier", points = { { 1, -1 }, { 0.15, 1.25 } } })
-hl.curve("nice", { type = "bezier", points = { { 0, 6.9 }, { 0.5, -4.20 } } })
+hl.curve("nice", { type = "bezier", points = { { 0, 2.0 }, { 0.5, -1.0 } } })
 hl.animation({
     leaf = "windowsIn",
     enabled = true,
